@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/a887207608.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="dragging-area"></div>
+    <nav>
+      <div class="nav-grid">
+        <div class="nav-bar-left"> 
+          <div class="emblem-buttons-container">
+            <div class="emblem-container">
+              <div class="emblem">
+                
+              </div>
+            </div>
+            <div class="buttons-left">
+              <ul id="tabs">
+                <li><a class="button-text text-left tab" id="tab1" href="#">Home Page</a></li>
+                <li><a class="button-text text-left tab" id="tab2" href="#">Leaderboard</a></li>
+                <li><a class="button-text text-left tab" id="tab3" href="#">Friends</a></li>
+              </ul>
+            </div>
+            <div></div>
+            <h1 class="welcome-text">Welcome, Players!</h1>
+          </div>
+        </div>
+        <div class="nav-bar-right">
+          <div class="buttons-right">
+            <a class="button-text text-right" id="login-button" href="#"><i></i>Login</a>
+            <a class="button-text text-right" id="setting-button" href="#"><i></i>Settings</a>
+          </div>
+          <div id="search-container">
+            <input class="search-box" type="search" placeholder="Search">
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="tabs-container">
+      <section class="home-grid tab-container" id="tab1container">
+        <aside class="home-left">
+          <div class="news-feed">
+            <div class="news-feed-header"><p>News Feed</p></div>
+            <div class="news-feed-body">
+              <div class="news-items">
+                <div class="news-feed-avatar">
+                  <img src="styles/images/avatars/vannary_avatar.png" height="70" width="70">
+                </div>
+                <div>
+                  <p>Vannary</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+              <div class="news-items">
+                <div class="news-feed-avatar">
+                  <img src="styles/images/avatars/mari_avatar.png" height="70" width="70">
+                </div>
+                <div>
+                  <p>Mari</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+              <div class="news-items">
+                <div class="news-feed-avatar">
+                  <img src="styles/images/avatars/michael_avatar.png" height="70" weight="70">
+                </div>
+                <div>
+                  <p>Michael</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+              <div class="news-items">
+                <div class="news-feed-avatar">
+                  <img src="styles/images/avatars/andrew_avatar.png" height="70" weight="70">
+                </div>
+                <div>
+                  <p>Andrew</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+              <div class="news-items">
+                <div class="news-feed-avatar">
+                  <img src="styles/images/avatars/jessica_avatar.png" height="70" weight="70">
+                </div>
+                <div>
+                  <p>Jessica</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+              <div class="news-items">
+                <div class="news-feed-avatar">
+                  <img src="styles/images/avatars/leslie_avatar.png" height="70" weight="70">
+                </div>
+                <div>
+                  <p>Leslie</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <aside class="home-right">
+          <div class="game-image-container"></div>
+          <div class="top-players-board">
+            <div class="top-players-header">Top Players</div>
+            <div class="top-players">
+              <div class="player">
+                <div class="player-score"><p>#1</p></div>
+                <div class="player-info">
+                  <div class="player-avatar"><img class="avatar-img" src="styles/images/avatars/mari_avatar.png"></div>
+                  <div class="player-name"><p>Mari</p></div>
+                </div>
+                <div class="player-points"><p>1000</p></div>
+              </div>
+              <!--<div class="player">
+                <div class="player-score" id="second"><p>#2</p></div>
+                <div class="player-info">
+                  <div class="player-avatar"><img class="avatar-img" src="styles/images/avatars/victor_avatar.png"></div>
+                  <div class="player-name"><p>Victor</p></div>
+                </div>
+                <div class="player-points"><p>986</p></div>
+              </div>
+              <div class="player">
+                <div class="player-score" id="third"><p>#3</p></div>
+                <div class="player-info">
+                  <div class="player-avatar"><img class="avatar-img" src="styles/images/avatars/oscar_avatar.png"></div>
+                  <div class="player-name"><p>Oscar</p></div>
+                </div>
+                <div class="player-points"><p>843</p></div>
+              </div>
+              <div class="player">
+                <div class="player-score"><p>#4</p></div>
+                <div class="player-info">
+                  <div class="player-avatar"><img class="avatar-img" src="styles/images/avatars/vannary_avatar.png"></div>
+                  <div class="player-name"><p>Vannary</p></div>
+                </div>
+                <div class="player-points"><p>732</p></div>
+              </div> -->
+            </div>
+          </div>
+          <div class="leaderboard-bar"><a class="arrow-icon" href="#"><i class="fas fa-angle-down"></i></a></div>
+        </aside>
+      </section>
+      
+      <section class="leaderboard tab-container" id="tab2container">
+             
+        <div class="leaderboard-header">
+            <div class="table-border leaderboard-rank-title"><p>Rank</p></div>
+            <div class="table-border leaderboard-name-title"><p>Name</p></div>
+            <div class="table-border leaderboard-score-title"><p>Score</p></div>
+        </div>
+        
+        <div class="leaderboard-body">
+            <div class="leaderboard-row">
+                <div class="table-border leaderboard-rank"><p>1</p></div>
+                <div class="leaderboard-name table-border name-spacing"><img src="styles/images/avatars/mari_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Mari</p></div>
+                <div><p class="leaderboard-score">1000</p></div>
+            </div>   
+  
+            <div class="leaderboard-row">
+                <div class="table-border leaderboard-rank"><p>2</p></div>
+                <div class="leaderboard-name table-border name-spacing"><img src="styles/images/avatars/victor_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Victor</p></div>
+                <div><p class="leaderboard-score">986</p></div>
+            </div> 
+            
+            <div class="leaderboard-row">
+                <div class="table-border leaderboard-rank"><p>3</p></div>
+                <div class="leaderboard-name table-border name-spacing"><img src="styles/images/avatars/oscar_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Oscar</p></div>
+                <div><p class="leaderboard-score">843</p></div>
+            </div> 
+            
+             <div class="leaderboard-row">
+                <div class="table-border leaderboard-rank"><p>4</p></div>
+                <div class="leaderboard-name table-border name-spacing"><img src="styles/images/avatars/vannary_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Vannary</p></div>
+                <div><p class="leaderboard-score">732</p></div>
+            </div> 
+             <div class="leaderboard-row">
+                <div class="table-border leaderboard-rank"><p>5</p></div>
+                <div class="leaderboard-name table-border name-spacing"><img src="styles/images/avatars/michael_avatar.png" alt="avatar" width="100" height="100" style="float:left"><p>Michael</p></div>
+                <div><p class="leaderboard-score">639</p></div>
+            </div> 
+        </div>
+      </section>
+      <section class="friends-grid tab-container" id="tab3container">
+        <aside>
+            <div class="friends-list friends-header" id="friends-list-title"><p>Friend's List</p></div>
+            <section class="friends-list-container">
+                <div class="friends-header-2by">
+                    <div class="title avatar"><p>Avatar</p></div>
+                    <div class="title friends-name"><p>Friend's Name</p></div>
+                </div>
+                <div class="friends-grid-2by">
+                      <div class="flex avatar"><img src="styles/images/avatars/vannary_avatar.png" height="70" width="70"></div>
+                     <div class="friend"><p>Vannary</p></div>
+                 </div>
+                <div class="friends-grid-2by">
+                     <div class="flex avatar"><img src="styles/images/avatars/oscar_avatar.png" height="70" width="70"></div>
+                     <div class="friend"><p>Oscar</p></div>
+                </div>
+                 <div class="friends-grid-2by">
+                      <div class="flex avatar"><img src="styles/images/avatars/victor_avatar.png" height="70" weight="70"></div>
+                     <div class="friend"><p>Victor</p></div>
+                </div>
+                  <div class="friends-grid-2by">
+                       <div class="flex avatar"><img src="styles/images/avatars/mari_avatar.png" height="70" weight="70"></div>
+                      <div class="friend"><p>Mari</p></div>
+                </div>
+                 <div class="friends-grid-2by">
+                      <div class="flex avatar"><img src="styles/images/avatars/michael_avatar.png" height="70" weight="70"></div>
+                      <div class="friend"><p>Michael</p></div>
+                </div>
+                 <div class="friends-grid-2by">
+                     <div class="flex avatar"><img src="styles/images/avatars/leslie_avatar.png" height="70" weight="70"></div>
+                     <div class="friend"><p>Leslie</p></div>
+                </div>
+                 <div class="friends-grid-2by">
+                     <div class="flex avatar"><img src="styles/images/avatars/andrew_avatar.png" height="70" weight="70"></div>
+                     <div class="friend"><p>Andrew</p></div>
+                </div>
+                 <div class="friends-grid-2by">
+                      <div class="flex avatar"><img src="styles/images/avatars/jessica_avatar.png" height="70" weight="70"></div>
+                     <div class="friend"><p>Jessica</p></div>
+                </div>  
+         </section>
+        </aside>
+        
+        <aside>
+          <div class="friends-list friends-header" id="invite-list-title"><p>Invite List</p></div>
+          <section class="friends-list-container">
+              <div class="friends-header-2by">
+                  <div class="title avatar"><p>Avatar</p></div>
+                  <div class="title friends-name"><p>Friend's Name</p></div>
+              </div>
+              <div class="friends-grid-2by">
+                    <div class="flex avatar"><img src="styles/images/avatars/vannary_avatar.png" height="70" width="70"></div>
+                   <div class="friend"><p>CFA</p></div>
+               </div>
+              <div class="friends-grid-2by">
+                   <div class="flex avatar"><img src="styles/images/avatars/oscar_avatar.png" height="70" width="70"></div>
+                   <div class="friend"><p>BoA</p></div>
+              </div>
+               <div class="friends-grid-2by">
+                    <div class="flex avatar"><img src="styles/images/avatars/victor_avatar.png" height="70" weight="70"></div>
+                   <div class="friend"><p>Bob</p></div>
+              </div>
+                <div class="friends-grid-2by">
+                     <div class="flex avatar"><img src="styles/images/avatars/mari_avatar.png" height="70" weight="70"></div>
+                    <div class="friend"><p>Lina</p></div>
+              </div>
+               <div class="friends-grid-2by">
+                    <div class="flex avatar"><img src="styles/images/avatars/michael_avatar.png" height="70" weight="70"></div>
+                    <div class="friend"><p>Kim</p></div>
+              </div>  
+       </section>
+      </aside>
+
+            <!-- <aside>
+                <div class="invite-list">
+                    <div class="invite-title friends-header"><p>Invite</p></div>
+                    <div class="invite-names">
+                        <div><p>BoA</p></div>
+                        <div><p>CFA</p></div>
+                        <div><p>Mary</p></div>
+                        <div><p>Ryan</p></div>
+                        <div><p>Don</p></div>
+                        <div><p>Ashley</p></div>
+                        <div><p>Lisa</p></div>
+                        <div><p>Kim</p></div>
+                    </div>
+                </div>
+            </aside> -->
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p>Team Infinite 2020</p>
+      </div>
+    </footer>
+    <table id="top-players-table">
+        <tr>
+          <td>1</td>
+          <td><img src="styles/images/avatars/mari_avatar.png"></td>
+          <td>Mari</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><img src="styles/images/avatars/victor_avatar.png"></td>
+          <td>Victor</td>
+          <td>986</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><img src="styles/images/avatars/oscar_avatar.png"></td>
+          <td>Oscar</td>
+          <td>843</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><img src="styles/images/avatars/vannary_avatar.png"></td>
+          <td>Vannary</td>
+          <td>732</td>
+        </tr>
+    </table>
+  </body>
+</html>
