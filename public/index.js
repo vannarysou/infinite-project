@@ -20,6 +20,8 @@ $(document).ready(function() {
         }
     });
 
+    //Leader Bar//
+
     leaderBar.click(function(){
         tabs.addClass('inactive');
         $('#tab2').removeClass('inactive');
